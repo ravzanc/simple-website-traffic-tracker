@@ -54,3 +54,6 @@ The `<path>` parameter can be any combination of alphanumeric chars as long you 
 Now, inside each tab, re-fresh the website page many times to generate unique visitors, only happening `each 10 seconds`.   
 The unique visitors data is stored in the database `website.visits` table by the `Javascript tracker` widget which is added automatically in all the website pages content.   
 Return to the Dashboard page tab where you can visualize and filter the `Unique Vistors` count per page or all website pages.
+
+### Dashboard Screenshot
+![Dashboard Screenshot](my_dashboard.png)
