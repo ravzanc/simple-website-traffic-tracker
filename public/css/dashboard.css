@@ -1,0 +1,39 @@
+div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+input:invalid + span::after {
+    content: "✖";
+    padding-left: 5px;
+    color: red;
+}
+
+input:valid + span::after {
+    content: "✓";
+    padding-left: 5px;
+    color: green;
+}
+
+table {
+    border-spacing: 20px;
+}
+
+thead th,
+thead td {
+    border-bottom: 2px solid black;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: center;
+}
